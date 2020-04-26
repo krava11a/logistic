@@ -2,7 +2,7 @@ define(function () {
     return {
         type: "line",
         height: 400,
-        width: 600,
+        width: 1000,
         rows: [
             {
                 view: "button",
