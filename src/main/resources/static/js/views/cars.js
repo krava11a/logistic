@@ -1,8 +1,8 @@
 define(function () {
     return {
         type: "line",
-        height: 400,
-        width: 1000,
+        /*height: 400,
+        width: 1000,*/
         rows: [
             {
                 view: "button",
