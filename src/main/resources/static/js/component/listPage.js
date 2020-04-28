@@ -3,11 +3,11 @@ define(function () {
        return{
            rows: [
                {
-                   view: "toolbar",
+                   view: 'toolbar',
                    cols: [
                        {
-                           view: "button",
-                           label: "Add",
+                           view: 'button',
+                           label: 'Add',
                            click: function () {
                                var markDT = $$(tableId);
                                var id = markDT.add({});
@@ -18,7 +18,7 @@ define(function () {
                },
                {
                    id: tableId,
-                   view: "datatable",
+                   view: 'datatable',
                    columns: columns,
                    datafetch:3,
                    url: url,
@@ -26,16 +26,16 @@ define(function () {
                    editable: true,
                    autoWidth: true,
                    autoHeigth: true,
-                   pager: "pagerMarkDT",
+                   pager: 'pagerMarkDT',
 
 
                },
                {
-                   view: "pager",
-                   id:"pagerMarkDT",
+                   view: 'pager',
+                   id:'pagerMarkDT',
                    size: 3,
                    group: 3,
-                   template: "{common.first()}{common.prev()}{common.pages()}{common.next()}{common.last()}"
+                   template: '{common.first()}{common.prev()}{common.pages()}{common.next()}{common.last()}'
 
                }
            ]

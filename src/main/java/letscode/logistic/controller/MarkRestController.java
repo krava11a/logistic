@@ -1,8 +1,7 @@
-package letscode.logistic.Controller;
+package letscode.logistic.controller;
 
 import letscode.logistic.domain.Mark;
 import letscode.logistic.repo.MarkRepo;
-import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

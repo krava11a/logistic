@@ -1,4 +1,4 @@
-package letscode.logistic.Controller;
+package letscode.logistic.controller;
 
 import letscode.logistic.domain.Car;
 import letscode.logistic.repo.CarRepo;
