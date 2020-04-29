@@ -24,8 +24,20 @@ function buildButton(label, route) {
 }
 
 require(
-    ['views/main', 'views/cars','views/marks','views/models','util/resourceProxy'],
-    function (main, cars, marks,models, resourceProxy) {
+    [
+        'views/main',
+        'views/car/carList',
+        'views/mark/markList',
+        'views/model/modelList',
+        'util/resourceProxy'
+    ],
+    function (
+        main,
+        cars,
+        marks,
+        models,
+        resourceProxy
+    ) {
     webix.ready(function () {
         webix.ui({
             container: 'app',
